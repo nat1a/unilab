@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+.header, .main{
+    background-color: #F6F8F9;
+}
+.txt-logo{
+   
+    font-weight: bold;
+    text-transform: uppercase;
+    color: orangered;
+    margin: 2vh;
+    font-size: 1vw;
+    
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    
+    font-size: 1vw;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color: black;
+    font-weight: bold;
+}
+.profile-pic{
+    display: inline-block;
+    width: 10%;
+    height: 80%;
+    background-image: url("https://media.istockphoto.com/photos/young-african-woman-smiling-at-sunset-picture-id969233490");
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 2vw;
+}
+.first-picture{
+    background-image: url("https://images.unsplash.com/photo-1581180810571-ffea85f10809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1066&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.text-on-pic{
+    width: 100%;
+    height: 100%;
+
+}
+.text{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.txt-for-some-reas, .learn-more{
+    margin-top: 3%;
+}
+.txt-world-news {
+  
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    letter-spacing: 0.01vw;
+    margin: 0%;
+}
+.txt-places-to-visit{
+    font-weight: 800;
+    color: white;
+    font-size: 1.5vw;
+    letter-spacing: 0.01vw;
+}
+.txt-for-some-reas{
+    color: white;
+    font-size: 1vw;
+}
+.learn-more{
+    display: inline-block;
+    width: 8vw;
+    height: 5vh;
+    text-align: center;
+    background-color: #FA6980;
+    border: 2px transparent;
+    border-radius: 0.3vw;
+    font-size: 0.8vw;
+    text-transform: uppercase;
+    color: white;
+   
+    font-weight: bold;
+}
+.more-news{
+    height: 80vh;
+    /* background-color: violet; */
+}
+.side-text{
+    width: 100%;
+    height: 100%;
+}
+.txt-travel{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    color: orangered;
+    font-weight: 600;
+    margin-top: 1vh;
+}
+.txt-article-title{
+    font-size: 1vw;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+    margin-top: 1vh;
+    font-weight: 700;
+}
+.twomin-ago{
+    width: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+.twomin-ago-2{
+    width: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+.txt-arrows{
+    width: 65vh;
+    display: flex;
+    /* background-color: cadetblue; */
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 1vh;
+    margin-bottom: 3vh; */
+}
+
+.arrows{
+    width: 8vh;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-angle-left, .fa-angle-right{
+    cursor: pointer;
+    font-weight: 500;
+}
+.fa-angle-left:hover, .fa-angle-right:hover{
+    font-weight: bold;
+}
+/* .twomin-ago, .fa{
+    
+} */
+
+
+
+/* -------------------------------------------------------main-------------------------------------------------------- */
+.a{
+    background-color: coral;
+}
+.txt-trending{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+.cards{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: coral; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.txt-arrows-2{
+    width: 100vw;
+    display: flex;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    /* background-color: cadetblue; */
+    justify-content: space-between;
+    align-items: center;
+}
+.r{
+    max-width: 25vw;
+    /* background-color: cornflowerblue; */
+    
+}
+.large{
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 2vw;
+}
+
+.one{
+    height: 50vh;
+    padding: 2vw;
+    background-image: url("https://s.hdnux.com/photos/01/12/66/62/19623053/3/rawImage.jpg");
+    background-size: cover;
+    background-position: center 30%;
+    
+}
+.two{
+    height: 50vh;
+    margin-top: 5vh;
+    padding: 2vw;
+    background-image: url("https://cdn.crello.com/api/media/small/210465290/stock-photo-path-green-dark-forest-wurzburg");
+    background-size: cover;
+    background-position: center 50%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.p-img{
+    display: inline-block;
+}
+.txt-city{
+    margin-bottom: 30vh;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2vh;
+}
+.small{
+    height: 105vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.small-pic-one{
+    background-image: url("https://images.theconversation.com/files/423660/original/file-20210928-15-69p37o.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop");
+    background-size: cover;
+    background-position: bottom;
+    height: 10vh;
+}
+.small-pic-two{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXsG-WYELLMumbdgEjXFp1cUfzzs5mxDI2w&usqp=CAU");
+    background-size: cover;
+    
+    height: 10vh;
+}
+.small-pic-tree{
+    background-image: url("https://mybestplace.com/uploads/2016/06/Tianmen-Mountain-Road-Hunan-Cina-IMG-2-TESTO.jpg");
+    background-size: cover;
+        height: 10vh;
+}
+.small-txt{
+    height: 2vh;
+}
+.twomin-ago-3{
+    width: 12vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    height: 25vh;
+}
+.footer, .footer a{
+    background-color: black;
+    height: 15vh;
+    font-size: 2vh;
+    color: white;
+}
